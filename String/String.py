@@ -20,3 +20,17 @@ print((" ".join(lst)))
 s = "  python is fun  "
 s=s.strip().title()
 print(s)
+
+## Concatenation
+s="abc"
+s+="10"   
+print(s)
+
+s="abc"
+a=10
+s+=str(a) ##typecasting a  into str
+print(s)
+
+a="abc"
+b="10"
+print(a+b)
