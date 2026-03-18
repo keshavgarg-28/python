@@ -1,0 +1,17 @@
+l = [1,2,2,3,3,3]
+d={}
+for i in l:
+    if i in d:
+        d[i]+=1
+    else:
+        d[i]=1
+print(d)     
+
+s = "aabbccc"
+d={}
+for ch in s:
+    if ch in d:
+        d[ch]+=1
+    else:
+        d[ch]=1
+print(d)
